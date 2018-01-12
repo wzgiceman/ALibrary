@@ -1,6 +1,6 @@
-#Android常用开发工具类
+# Android常用开发工具类
 
-##应用工具类  [ **`AbAppUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbAppUtil.java)
+## 应用工具类  [ **`AbAppUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbAppUtil.java)
 * 读取application 节点  meta-data 信息`readMetaDataFromApplication`
 * 打开并安装文件 `installApk`
 * 卸载程序 `uninstallApk`
@@ -19,7 +19,7 @@
 * 是否存在该包名的应用 `exitAppBy`
 
 
-##日期处理类  [**`AbDateUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbDateUtil.java)
+## 日期处理类  [**`AbDateUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbDateUtil.java)
 * String类型的日期时间转化为Date类型 `getDateByFormat`
 * 获取偏移之后的Date `getDateByOffset`
 * 获取指定日期时间的字符串(可偏移) `getStringByOffset`
@@ -47,7 +47,7 @@
 * 解析时间按照小时：分：秒格式输出 `getTime`
 
 
-##文件操作类 [**`AbFileUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbFileUtil.java)
+## 文件操作类 [**`AbFileUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbFileUtil.java)
 * 通过文件的网络地址从SD卡中读取图片，如果SD中没有则自动下载并保存 `getBitmapFromSD`
 * 通过文件的本地地址从SD卡读取图片 `getBitmapFromSD`
 * 通过文件的本地地址从SD卡读取图片 `getBitmapFromSD`
@@ -84,7 +84,7 @@
 * 缓存中可用的大小 `getFreeSdSpaceNeededToCache`
 
 
-##图形处理类 [**`AbGraphicUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbGraphicUtil.java)
+## 图形处理类 [**`AbGraphicUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbGraphicUtil.java)
 * 获取字符的所在位置（按像素获取最大能容纳的）`subStringLength`
 * 获取文字的像素宽 `getStringWidth`
 * 获得文字的宽度 `getDesiredWidth`
@@ -94,7 +94,7 @@
 * 绘制文本，支持换行 `drawText`
 
 
-##图片处理类 [**`AbImageUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbImageUtil.java)
+## 图片处理类 [**`AbImageUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbImageUtil.java)
 * 解析bitmap `getBitmapByte`
 * 直接获取互联网上的图片 `getBitmap`
 * 获取原图 `getBitmap`
@@ -125,9 +125,9 @@
 * 压缩图片 `compressBitmap`
 * 根据URI获取图片物理路径 `getAbsoluteImagePath`
 
-##日志工具类 [**`AbLogUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbLogUtil.java)
+## 日志工具类 [**`AbLogUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbLogUtil.java)
 
-##数学处理类 [**`AbMathUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbMathUtil.java)
+## 数学处理类 [**`AbMathUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbMathUtil.java)
 * 四舍五入  `round`
 * 字节数组转换成16进制串 `byte2HexStr`
 * 二进制转为十六进制 `binaryToHex`
@@ -147,13 +147,13 @@
 * 矩形碰撞检测 参数为x,y,width,height `isRectCollision`
 
 
-##MD5加密 [**`AbMd5`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbMd5.java)
+## MD5加密 [**`AbMd5`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbMd5.java)
 * MD5加密 `MD5`
 
 
-##保存到 SharedPreferences 的数据 [**`AbSharedUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbSharedUtil.java)
+## 保存到 SharedPreferences 的数据 [**`AbSharedUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbSharedUtil.java)
 
-##字符串处理类 [**`AbStrUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbStrUtil.java)
+## 字符串处理类 [**`AbStrUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbStrUtil.java)
 * 给填写搜索单词的关键词显示 特殊颜色 `changeTextColor`
 * 将null转化为“” `parseEmpty`
 * 判断一个字符串是否为null或空值 `isEmpty`
@@ -177,7 +177,7 @@
 * 获取大小的描述 `getSizeDesc`
 * ip地址转换为10进制数 `ip2int`
 
-##View工具类 [**`AbViewUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbViewUtil.java)
+## View工具类 [**`AbViewUtil`**](https://github.com/wzgiceman/ALibrary/blob/master/src/main/java/com/ab/util/AbViewUtil.java)
 * 测量这个view `measureView`
 * 获得这个View的宽度 `getViewWidth`
 * 获得这个View的高度 `getViewHeight`
